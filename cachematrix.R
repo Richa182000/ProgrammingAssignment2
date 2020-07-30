@@ -22,7 +22,7 @@ list(set = set, get = get,
 
 cacheSolve <- function(x, ...) {
 inv <- x$getInverse()
-if(!is.null(inv)) {{
+if(!is.null(inv)) {
 message("getting cache data!")
 return(inv)
 }
